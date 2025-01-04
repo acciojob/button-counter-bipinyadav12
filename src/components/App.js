@@ -6,12 +6,8 @@ const App = () => {
    const [count, setCount] = useState(0)
   return (
     <div>
-        <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count  {count}
+        <button onClick={() => setCount((count) => count + 1)}> count  {count}
         </button>
-        
-      </div>
       <p >
       Button clicked {count} times
       </p>
